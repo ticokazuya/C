@@ -9,10 +9,10 @@ int main(){
 	printf("Entre com o dia da semana em numeral.\n");
 	scanf("%d", &valor);
 	
-	switch(valor){
-		case 1:
+	switch(valor){ //variável ou valor que será comparado.
+		case 1:// se valor igual a 1... esse trexo será eecutado
 			printf("Domingo.\n");
-			break;//termina a execu��o e segue para a pr�xima. Assim evita os pr�ximos testes.
+			break;//termina a execução e segue para a próxima. Assim evita os próximos testes.
 		case 2:
 			printf("Segunda.\n");
 			break;
