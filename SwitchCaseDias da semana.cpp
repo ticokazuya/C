@@ -10,11 +10,11 @@ int main(){
 	scanf("%d", &valor);
 	
 	switch(valor){ //variável ou valor que será comparado.
-		case 1:// se valor igual a 1... esse trexo será eecutado
-			printf("Domingo.\n");
+		case 1:// se valor igual a 1... esse trexo será executado
+			printf("Domingo.\n vai curtir.\n");
 			break;//termina a execução e segue para a próxima. Assim evita os próximos testes.
 		case 2:
-			printf("Segunda.\n");
+			printf("Segunda.\nDia de voltar a trabalhar.\n");
 			break;
 		case 3:
 			printf("Terca.\n");
@@ -23,10 +23,10 @@ int main(){
 			printf("Quarta.\n");
 			break;
 		case 5:
-			printf("Sexta.\n");
+			printf("Sexta.\nOpa!!! Quase!\n");
 			break;
 		case 6:
-			printf("Sabado.\n");
+			printf("Sabado.\nAeeee!!!\n");
 			break;
 			default:// exibe uma mensagem, caso nenhuma das alternativas anteriores seja verdadeira.
 				printf("Valor invalido.\n");
